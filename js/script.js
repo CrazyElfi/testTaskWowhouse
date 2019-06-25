@@ -4,6 +4,7 @@ $(function(){
         // options
         itemSelector : '.project_item',
         columnWidth : 10,
-        isAnimated: true
+        isAnimated: true,
+        fitWidth: true
     });
 });

@@ -78,7 +78,6 @@ ul.list li {
     padding: 0 10px;
     color: #666;
     text-decoration: none;
-
 }
 
 
@@ -90,8 +89,11 @@ ul.list li {
     float: right;
     padding-top: 40px;
 }
-.content {
-
+#content_subitems {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
 }
 .project_item {
     display: block;
@@ -100,8 +102,10 @@ ul.list li {
     height: 260px;
     border: 2px solid antiquewhite;
     margin: 0  1em 1em 0;
+
     background-size: cover;
     overflow: hidden;
+
 }
 .project_item img {
     height: 80%;
