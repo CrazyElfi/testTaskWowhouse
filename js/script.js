@@ -1,19 +1,9 @@
 $(function(){
     console.log('hdjskdl')
-    $('#container').masonry({
+    $('#content_subitems').masonry({
         // options
-        itemSelector : '.item',
-        columnWidth : 50,
+        itemSelector : '.project_item',
+        columnWidth : 10,
         isAnimated: true
     });
 });
-
-// var $container = $('#container');
-//
-// $container.imagesLoaded( function(){
-//     $container.masonry({
-//         columnWidth : 50,
-//         itemSelector : '.itemm',
-//         isAnimated: true
-//     });
-// });
