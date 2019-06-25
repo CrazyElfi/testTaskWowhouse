@@ -76,7 +76,10 @@ ul.list li {
     padding: 0 10px;
     color: #666;
     text-decoration: none;
-}
+}.list a:hover {
+    color: #000;
+ }
+
 .logo {
     float: left;
     padding: auto;
