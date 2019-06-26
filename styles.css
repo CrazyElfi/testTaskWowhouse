@@ -95,7 +95,7 @@ ul.list li {
     float: left;
     width: 205px;
     height: 260px;
-    border: 2px solid antiquewhite;
+/*     border: 2px solid antiquewhite; */
     margin: 0.5em;
     background-size: cover;
     overflow: hidden;
